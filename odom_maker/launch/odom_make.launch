@@ -1,0 +1,4 @@
+<launch>
+    <node name="wheelchair_odom_maker" pkg="odom_maker" type="odom_maker" />
+    <rosparam command="load" file="$(find odom_maker)/cfg/odom.yaml" />
+</launch>

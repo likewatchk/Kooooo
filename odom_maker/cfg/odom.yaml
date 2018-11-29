@@ -1,0 +1,4 @@
+odom_maker:
+  base_link_id : "/base_link"
+  odom_link_id : "/odom"
+  separation_length : 0.56
